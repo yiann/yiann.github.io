@@ -48,22 +48,9 @@ h6 {
     text-align: center;
     min-height: 100%;
     position: relative;
-    margin-bottom: 3em;
+    margin-bottom: 8em;
 }
 
-.row {
-    height: 100%;
-}
-
-#left {
-    background-color: #FFD433;
-    height: 100%;
-}
-
-#right{
-    background-color: #269FFF;
-    height: 100%;
-}
 
 .aboutimage {
     margin-top:0.1em;
@@ -86,7 +73,8 @@ h6 {
 
 #foodtext, #sporttext, #musictext{
     padding:3%;
-    min-height: 55vh;
+    min-height: 30vh;
+    text-align: left;
 }
 
 #foodtext {
