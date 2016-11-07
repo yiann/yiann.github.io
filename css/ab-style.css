@@ -1,0 +1,157 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#logoimg {
+    height: 30px;
+    width: auto;
+    display: inline;
+}
+
+#logotext {
+    display: inline;
+    margin-left: 5px;
+}
+
+#here {
+    border-bottom: 4px solid #0B5CD3;
+}
+
+#here a{
+    color: #0B5CD3;
+}
+
+#content{
+    padding-top: 50px; 
+    text-align: center;
+    min-height: 100%;
+    position: relative;
+    margin-bottom: 3em;
+}
+
+.row {
+    height: 100%;
+}
+
+#left {
+    background-color: #FFD433;
+    height: 100%;
+}
+
+#right{
+    background-color: #269FFF;
+    height: 100%;
+}
+
+.aboutimage {
+    margin-top:0.1em;
+    display: inline-block;
+    font: normal normal normal 15em/1 FontAwesome;
+    border-color: white;
+}
+
+#foodicon{
+    color: #FF26B7;
+}
+
+#sporticon{
+    color: #26CAFF;
+}
+
+#musicicon{
+    color: #FFC726;
+}
+
+#foodtext, #sporttext, #musictext{
+    padding:3%;
+    min-height: 55vh;
+}
+
+#foodtext {
+    border-left: 3px solid #FF26B7;
+    border-right: 3px solid #FF26B7;
+}    
+
+#sporttext {
+    border-left: 3px solid #26CAFF;
+    border-right: 3px solid #26CAFF;
+}
+
+#musictext {
+    border-left: 3px solid #FFC726;
+    border-right: 3px solid #FFC726;
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+footer {
+    /*padding: 10px 0;*/
+    background-color: #f8f8f8;
+    position: relative;
+    height: 8em;
+    margin-top:-8em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+#socialicons {
+    text-align: right;
+    padding: 1%;
+}
+
+@media(max-width:1000px) {
+    .network-name {
+        display: none;
+    }
+}
+
+p.copyright {
+    margin: 5px 0 0;
+}
