@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Yiann Chen">
+
+    <title>Yi-Ann Chen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){
+   
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+    });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#"><img src="./img/comicme.JPG" id="logoimg"/> <p id="logotext">Yi-Ann Chen</p></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="./projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./experiences.html">Experiences</a>
+                    </li>
+                    <li>
+                        <a href="./photos.html">Photo Gallery</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <!-- index -->
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Welcome !</h1>
+                        <h2>Here is Yiann's Space.</h2>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-button">
+                            <li>
+                                <a href="#intro" class="btn btn-default btn-lg" ><span class="network-name">Know more about me</span><i class="fa fa-angle-double-down fa-fw"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+      
+      <div class="content-section" id="intro">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <p class="lead">I'm a first-year master student in School of Information, University of Michigan. 
+                    My specialization is Human Computer Interaction (HCI) that we put users in the top priority when designing interaction experience.
+                    Products or services are designed for a reason. Therefore, existing problems have to be defined well first. This can be achieved by standing in users' shoes and looking from users' eyes instead of product perspectives.
+                    I'm aiming for becoming an User Experience (UX) designer who helps people use technology more comfortably and confidently.</p>
+                    <p class="lead">I come from Taiwan and was graduated from National Taiwan University. My mother language is Chinese and I understand Taiwanese (dialect).
+                    I have also learned Japanese for 2 years, Spanish and Korean for a year. I really enjoy learning a new language which helps me understand a new culture more deeply and directly.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <img class="img-responsive" id="profilepic" src="./img/intro-profile.jpg" alt="Yiann Chen Profile">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <p class="copyright text-muted small"><i class="fa fa-envelope fa-fw"></i> yiannc@umich.edu</p>
+                    <p class="copyright text-muted small"><i class="fa fa-map-marker fa-fw"></i> North Quad 105 S. State St., Ann Arbor, MI 48109-1285 </p>
+                </div>
+                <div class="col-xs-6" id="socialicons">
+                    <a href="https://www.facebook.com/yiann.lovezac" class="btn btn-default"><i class="fa fa-facebook-square fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    <a href="https://www.instagram.com/yiann09" class="btn btn-default"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                    <a href="https://twitter.com/yiann09" class="btn btn-default"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted small">Copyright &copy; Yiann Chen 2016. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
